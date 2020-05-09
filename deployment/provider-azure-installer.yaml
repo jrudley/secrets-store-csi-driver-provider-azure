@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: provider-azure-installer
-          image: docker.io/deislabs/secrets-store-csi:0.0.10
+          image: docker.io/deislabs/secrets-store-csi:v0.0.10
           imagePullPolicy: Always
           resources:
             requests:
